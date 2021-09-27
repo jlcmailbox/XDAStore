@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.navigation {
+  position: relative;
+  height: 3.6em;
+  display: flex;
+}
+
+.navigation__brand {
+  display: flex;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #0c0910;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  color: #FFF;
+}
+
+.navigation__menu {
+  top: 0em;
+  left: 20em;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+  display: none;
+}
+
+.navigation__hamburger {
+  position: absolute;
+  top: 1em;
+  right: 0em;
+  text-align: right;
+}
+.navigation__hamburger label {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1.5em;
+  font-size: 1.8rem;
+}
+
+#menu {
+  display: none;
+}
+
+body {
+  background-color: #FFF;
+}
+
+.content__text {
+  padding: 2rem;
+}
+.content__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+.content__paragraph {
+  font-family: "Raleway", sans-serif;
+  color: #646266;
+  line-height: 1.5;
+  padding-bottom: 1em;
+}
+
+.header {
+  background: url("/assets/images/imagen1.png");
+  height: 50vh;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .content {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    width: 60%;
+    float: right;
+    height: 100vh;
+  }
+}
+.content__newsletter {
+  background-color: #0c0910;
+  color: #FFF;
+  position: relative;
+}
+.content__form {
+  padding: 1em 8em 1em 3em;
+}
+.content__form h2 {
+  font-size: 30px;
+  margin-bottom: 0.5em;
+}
+.content__form label {
+  display: block;
+  margin-bottom: 1em;
+}
+.content__form input {
+  padding: 0.5em;
+  width: auto;
+  border: 0;
+  border-radius: 0;
+}
+.content__form input::placeholder {
+  font-family: "Raleway", sans-serif;
+}
+.content__form input input:checked {
+  max-height: 100%;
+  visibility: visible;
+}
+.content__subscription {
+  background-color: #FFF;
+  color: #0c0910;
+  position: absolute;
+  padding: 0.5em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  writing-mode: vertical-rl;
+}
+
+@media (min-width: 768px, 992px) {
+  .content__newsletter {
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    height: 18%;
+    margin-bottom: 0px;
+    padding-top: 15px;
+  }
+}
+.content__button {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: #0c0910;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

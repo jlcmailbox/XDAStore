@@ -1,0 +1,49 @@
+.navigation {
+    position: relative;
+    height: 3.6em;
+    display: flex;
+}
+
+.navigation__brand {
+    display: flex;
+    // top: 0em;
+    // left: 0em;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: $smoky-black;
+    font-family: $old-standard;
+    font-weight: 700;
+    font-size: $font-size-x-large;
+    align-items:center;
+    justify-content:center;
+    padding: 14px;
+    color: $white;
+    }
+
+.navigation__menu {
+    top: 0em;
+    left: 20em;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+    display: none;
+
+    }
+
+.navigation__hamburger {
+    position: absolute;
+    top: 1em;
+    right: 0em;
+    text-align: right;
+    label {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: 1.5em;
+    font-size: 1.8rem;
+    
+    }
+}
+#menu {
+    display: none;
+}
+
