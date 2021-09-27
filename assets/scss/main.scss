@@ -1,13 +1,13 @@
 // main.scss # Manifest File
+
 // abstracts
 @import 'abstracts/variables';
 
 // Vendors
-
-
 // Base
 @import 'base/typography';
 @import 'base/reset';
+
 // Layout
 @import 'layout/navigation';
 @import 'layout/content';
@@ -15,7 +15,6 @@
 
 // Components
 @import 'components/buttons';
-
 
 // Pages
 // Theme
