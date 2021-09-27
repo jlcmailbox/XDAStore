@@ -121,7 +121,7 @@ body {
 }
 
 .header {
-  background-image: url("/assets/img/newimage.jpg");
+  background-image: url("../img/newimage.jpg");
   height: 50vh;
   background-size: cover;
 }
